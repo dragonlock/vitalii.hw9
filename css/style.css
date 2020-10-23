@@ -12,10 +12,15 @@ html{
 
 header{
     width: 100%;
-    max-width: 1440px;
     height: 665px;
     background: url(../img/head-img.png) no-repeat right;
     background-color: #f4f6f9;
+}
+
+main,
+footer{
+    width: 100%;
+    /* max-width: 1440px; */
 }
 
 .header-wrapp{
@@ -511,6 +516,11 @@ color: #333333;
         background: #f4f6f9;
     }
 
+    main,
+    footer{
+        width: 100%;
+    }
+    
     .header-logo img{
         display: block;
         margin: 0 auto;
